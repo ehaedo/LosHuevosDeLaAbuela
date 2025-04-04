@@ -67,10 +67,10 @@ body
 .navbar-default .navbar-brand{
 	border: 1px solid #fff;
 	color: #fff;
-	font-size: 30px;
+	font-size: 25px;
 	padding: 10px 20px;
 	height: auto;
-	font-weight: 200;
+	font-weight: 300;
 	letter-spacing: 5px;
 }
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
@@ -521,4 +521,10 @@ a .rss:hover{
 	.header-table{
 		max-height: 627px;
 	}
+}
+@media (max-width: 576px) {
+    .mobile-space {
+        display: block;
+        margin-top: 15px; /* Aumenta el espacio entre líneas */
+    }
 }

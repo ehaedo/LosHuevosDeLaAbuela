@@ -1,0 +1,16 @@
+.section-background{
+	background: url('../images/portfolio.png');
+}
+.modal {
+    display: block !important; /* Evita que se oculte */
+    background: rgba(0, 0, 0, 0.7); /* Fondo oscuro semi-transparente */
+}
+
+.modal-dialog {
+    max-width: 80%;
+}
+
+.modal-body img {
+    max-width: 100%;
+    height: auto;
+}
